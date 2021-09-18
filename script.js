@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 const bottom = document.querySelector(".footer");
 bottom.innerHTML = `
 <p class="normal">Questions? Call 000-800-040-1843</p>
-<ul class="links">
+<ul class="links smallwhite">
     <li>FAQ</li>
     <li>Media center</li>
     <li>Ways to watch</li>
@@ -148,7 +148,7 @@ bottom.innerHTML = `
         <option value="hn">हिंदी</option>
     </select>
 </form>
-<p style="color: white">Netflix India</p>
+<p class="smallwhite">Netflix India</p>
 `;
 
 
