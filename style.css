@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+.bgimg{
+    background-image: url("IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode:saturation; */
+    border-bottom: 8px solid grey;
+    padding: 1rem 1rem 3rem 1rem; 
+}
+.flixLogo{
+    width: 120px;
+    height: 70px;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.bold{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.normal{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.tele, .mob, .devices, .profile{
+    width: 100%;
+}
+.topSignIn, .signIn{
+    text-align: center;
+}
+.signin{
+    background-color: #E50914;
+    border: 1px solid grey;
+}
+.emid{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+    height: 2.5rem;
+}
+.start{
+    height: 2.5rem;
+    border: 1px solid grey;
+    background-color: #E50914;
+}
+.btm{
+    border-bottom: 8px solid grey;
+}
+.emid1{
+    width: 90%;
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+    height: 2.5rem;
+}
+.links li{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.downloadingAni{
+    border: 1px solid grey;
+    height: 4rem;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -3rem;
+    border-radius: 10px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.boximg{
+    width: 2.5rem;
+    height: 3rem;
+}
+.rightSide{
+    position: relative;
+    right: -3.8rem;
+}
+.smallwhite{
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+.gifs{
+    width: 3rem;
+    position: relative;
+    /* right: -14rem; */
+    /* height: 2rem; */
+}
+p.que {
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+}
+p.que.active, p.que:hover {
+    background-color: #303030;
+}
+p.que:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+p.que.active:after {
+    content: "\2796"; 
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #303030;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+    color: white;
+}
+@media(min-width:768px) {
+    .emid, .emid1{
+        width: 50%;
+    }
+    .btm{
+        margin-top: 2rem;
+    }
+    .tele, .mob, .devices, .profile{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .downloadingAni{
+        width: 50%;
+    }
+    .flixLogo{
+        width: 180px;
+        height: 100px;
+    }
+    .rightSide{
+        position: relative;
+        right: -60rem;
+    }
+}
