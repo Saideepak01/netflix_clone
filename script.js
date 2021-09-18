@@ -148,7 +148,7 @@ bottom.innerHTML = `
         <option value="hn">हिंदी</option>
     </select>
 </form>
-<p>Netflix India</p>
+<p style="color: white">Netflix India</p>
 `;
 
 
